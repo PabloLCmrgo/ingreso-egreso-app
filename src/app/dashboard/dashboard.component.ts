@@ -32,8 +32,8 @@ ingresosSubs: Subscription;
   }
 
   ngOnDestroy(){
-    this.ingresosSubs.unsubscribe();
-    this.userSubs.unsubscribe();
+    this.ingresosSubs?.unsubscribe();
+    this.userSubs?.unsubscribe();
   }
 
 }
